@@ -1,0 +1,64 @@
+<html>
+<style>
+*{
+	padding:0px;
+	margin:0px;
+}
+	.nav{
+		background-color:black;
+		width:900px;
+		height:50px;
+		margin:auto;
+	}
+	.nav li{
+		list-style:none;
+		float:left;
+		width:180px;
+		height:50px;
+	}
+	.nav li a{
+		text-decoration:none;
+		color:red;
+		background-color:navy;
+		width:180px;
+		height:50px;
+		display:block;
+		text-align:center;
+		line-height:50px;
+	}
+	.nav li a:hover{
+		background-color:lime;
+	}
+	.nav li ul li{
+		display:none;
+	}
+	.nav li:hover ul li{
+		display:block;
+	}
+</style>
+<body>
+	<div class="nav">
+		<ul>
+			<li><a href="#">Home</a>
+				<ul>
+					<li><a href="#">Home 1</a></li>
+					<li><a href="#">Home 2</a></li>
+					<li><a href="#">Home 3</a></li>
+					<li><a href="#">Home 4</a></li>
+				</ul>
+			</li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a>
+				<ul>
+					<li><a href="#">Developer</a></li>
+					<li><a href="#">Costumer Care</a></li>
+					<li><a href="#">Service Center</a></li>
+					<li><a href="#">Update</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Service</a></li>
+			<li><a href="#">Product</a></li>
+		</ul>
+	</div>
+</body>
+</html>
